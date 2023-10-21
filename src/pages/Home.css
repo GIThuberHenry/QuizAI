@@ -1,0 +1,49 @@
+.swiper {
+    width: 100%;
+    height: 40%;
+  }
+  
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+  
+.shop-items-card {
+  display: block;
+  text-align: start;
+  width: 10em;
+}
+
+ion-icon {
+  font-size: 2.5em;
+}
+
+ion-col {
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  ion-icon {
+    font-size: 2em;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  ion-icon {
+    font-size: 1.5em;
+  }
+}

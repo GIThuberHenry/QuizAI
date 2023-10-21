@@ -1,0 +1,39 @@
+/*
+ * Optional CSS
+ * -----------------------------------
+ */
+
+/* This sets a different background and item background in light mode on ios */
+.ios body {
+    --ion-background-color: #f2f2f6;
+    --ion-toolbar-background: var(--ion-background-color);
+    --ion-item-background: #fff;
+  }
+  
+  /* This sets a different background and item background in light mode on md */
+  .md body {
+    --ion-background-color: #f9f9f9;
+    --ion-toolbar-background: var(--ion-background-color);
+    --ion-item-background: #fff;
+  }
+  
+  /* This is added for the flashing that happens when toggling between themes */
+  ion-item {
+    --transition: none;
+  }
+
+  ion-modal#example-modal {
+    --height: 50%;
+    --border-radius: 16px;
+    --box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  }
+  
+  ion-modal#example-modal::part(backdrop) {
+    background: rgba(209, 213, 219);
+    opacity: 1;
+  }
+  
+  ion-modal#example-modal ion-toolbar {
+    --background: rgb(14 116 144);
+    --color: white;
+  }

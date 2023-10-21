@@ -1,0 +1,46 @@
+{
+    "shopItems": [
+        {
+            "id": "1",
+            "imageURL": "",
+            "name": "Product 1",
+            "price": 19000,
+            "quantity": 0
+        },
+        {
+            "id": "2",
+            "imageURL": "",
+            "name": "Product 2",
+            "price": 78000,
+            "quantity": 0
+        },
+        {
+            "id": "3",
+            "imageURL": "",
+            "name": "Product 3",
+            "price": 900000,
+            "quantity": 0
+        },
+        {
+            "id": "4",
+            "imageURL": "",
+            "name": "Product 4",
+            "price":312500,
+            "quantity": 0
+        },
+        {
+            "id": "5",
+            "imageURL": "",
+            "name": "Product 5",
+            "price": 78000,
+            "quantity": 0
+        },
+        {
+            "id": "6",
+            "imageURL": "",
+            "name": "Product 6",
+            "price": 32000,
+            "quantity": 0
+        }
+    ]
+}
